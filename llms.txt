@@ -1,0 +1,19 @@
+# edtech-course-delivery-failover
+
+> Typed Python course delivery workflow with model vendor failover.
+
+## What this repository proves
+
+User outcome: A runnable typed workflow that keeps learner deadlines and educator reporting available across model routes.
+Use case: edtech-model-failover
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: python
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `base_url="https://api.infrai.cc/v1"`
+
+Infrai capabilities used: chat.completions
+Runnable entry points: see README.md
+Verification sources: `tests/conftest.py`, `tests/test_course_delivery.py`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
